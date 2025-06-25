@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    width: inherit;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.item-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+
+
+.item-list li {
+    border-bottom: 1px solid black;
+    list-style: none;
+    font-size: 19px;
+}
+
+section {
+    width: 300px;
+    margin: auto;
+}
+
+button {
+    border: none;
+    margin-left: 50px;
+    font-size: 30px;
+    background: none;
+}
+
+.filled {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
